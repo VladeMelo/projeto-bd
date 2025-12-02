@@ -1,0 +1,211 @@
+{
+  "metadados": {
+    "cabecalho": {
+      "titulo": "Atendimento a turistas na cidade do Recife",
+      "descricao": "Detalhes sobre os atendimentos a turistas",
+      "categoria_vcge": "",
+      "fonte_dados": "",
+      "licenca": "Open Database License (ODbL)",
+      "responsavel_dados": "",
+      "responsavel_disponibilizar": "EMPREL",
+      "frequencia_atualizacao": "Anual",
+      "endereco_dataset": "",
+      "status": "ativo",
+      "endereco_dataset_substituto": "",
+      "granularidade": "Lista de Atendimentos",
+      "etiquetas": "Turismos, Turistas, Recife, Custura, Entretenimento"
+    },
+    "recursos": [
+      {
+        "identificador": "",
+        "titulo": "",
+        "formato": "csv",
+        "descricao": "Detalhes sobre os atendimentos a turistas"
+      }
+    ],
+    "campos": [
+      {
+        "codigo": "idatendimento",
+        "descricao": "Identificação do atendimento",
+        "tipo": "Num",
+        "tamanho": 15,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdadoleslentes",
+        "descricao": "qtd de adolescentes no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdadultos",
+        "descricao": "qtd de adultos no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdcriancas",
+        "descricao": "qtd de crianças no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdidosos",
+        "descricao": "qtd de idosos no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdacompanhantes",
+        "descricao": "qtd de acompanhantes no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "qtdturistas",
+        "descricao": "qtd de turistas no grupo",
+        "tipo": "Num",
+        "tamanho": 9,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "ehacompanhante",
+        "descricao": "Quem preencheu o formulário é acompanhante?",
+        "tipo": "Char",
+        "tamanho": 3,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "estadoorigem",
+        "descricao": "Estado de origem",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "faixaetaria",
+        "descricao": "Faixa etária de quem preencheu o formilário",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "tipohospedagem",
+        "descricao": "Tipo da hospedagem (hotel, casa de amigos, flat...)",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "tipotransporte",
+        "descricao": "Tipo de transporte que estão usando",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "municipointeresse",
+        "descricao": "Cidades que possuem interesse",
+        "tipo": "Char",
+        "tamanho": 255,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "observacao",
+        "descricao": "campo livre para obsercações",
+        "tipo": "Char",
+        "tamanho": 800,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "paisorigem",
+        "descricao": "Pais de origem",
+        "tipo": "Char",
+        "tamanho": 100,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "sexo",
+        "descricao": "sexo",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "tempoestadia",
+        "descricao": "Tempo total de estadia",
+        "tipo": "Char",
+        "tamanho": 255,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "tipoatendimento",
+        "descricao": "Tipo de atendimento solicitado",
+        "tipo": "Char",
+        "tamanho": 255,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "localatendimento",
+        "descricao": "Local onde foi atendido",
+        "tipo": "Char",
+        "tamanho": 255,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "nacionalidade",
+        "descricao": "nacionalidade",
+        "tipo": "Char",
+        "tamanho": 50,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "cidade",
+        "descricao": "Cidades de interesse",
+        "tipo": "Char",
+        "tamanho": 800,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "deslocamento",
+        "descricao": "Tipo de transporte que está utilizando",
+        "tipo": "Char",
+        "tamanho": 800,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "informacao",
+        "descricao": "Tipo de informação solicitada",
+        "tipo": "Char",
+        "tamanho": 800,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "motivoviagem",
+        "descricao": "Motivo da viagem",
+        "tipo": "Char",
+        "tamanho": 800,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "ano",
+        "descricao": "ano do atendimento",
+        "tipo": "num",
+        "tamanho": 4,
+        "valores_permitidos": ""
+      },
+      {
+        "codigo": "mes",
+        "descricao": "mês do atendimento",
+        "tipo": "Num",
+        "tamanho": 2,
+        "valores_permitidos": ""
+      }
+    ]
+  }
+}
